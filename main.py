@@ -12,6 +12,7 @@ while True:
             print("CPU: ",CPU)
             print("player: ",player)
             print("Tie!")
+            continue 
     elif player == "R":
         if CPU == "P":
             print("CPU: ",CPU)
@@ -38,11 +39,7 @@ while True:
         if CPU == "R":
             print("CPU: ",CPU)
             print("player: ",player)
-            print("Winner!")
-    
-    play_again = input("Play again? (yes/no): ").lower()
-
-    if play_again != "yes": 
+            print("Winner!") 
         break
 print("Bye!")
 
